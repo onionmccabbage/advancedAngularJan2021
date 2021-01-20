@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./use-async.component.css']
 })
 export class UseAsyncComponent {
-  time = new Observable<string>(observer => {
+  time = new Observable<string>( (observer) => {
     setInterval(() => observer.next(new Date().toString()), 1000);
   });
 }

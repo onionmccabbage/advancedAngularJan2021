@@ -9,7 +9,8 @@ import { TypicodeService } from '../typicode.service'
 export class UsersComponent implements OnInit {
 
   userId:number = 1
-  users
+  users // for all the returned users
+  user // for one returned user
   constructor( private typicode:TypicodeService ) { }
 
   ngOnInit(): void {
@@ -21,6 +22,14 @@ export class UsersComponent implements OnInit {
         console.log(response)
         this.users = response
       }  ) 
+  }
+  // method to return ONE user
+  getSingleUser(){
+    this.typicode.getOneUser(this.userId)
+      .subscribe( (response)=>{
+        console.log(response)
+        this.user = response
+      } )
   }
 
 }
