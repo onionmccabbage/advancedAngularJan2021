@@ -55,9 +55,9 @@ export class ChildComponent implements OnInit {
     this.getSwapiService.getRelatedFilmData(paramFilmUrl)
       .subscribe(
         (returnedFilmDetails) => {
-          this.filmDetails = returnedFilmDetails
+          // this.filmDetails = returnedFilmDetails
         }, error => {
-          this.statusObj.status = `Could not find film at ${paramFilmUrl}`
+          // this.statusObj.status = `Could not find film at ${paramFilmUrl}`
         }
       )
   }

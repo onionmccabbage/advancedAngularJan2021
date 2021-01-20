@@ -8,14 +8,14 @@ export class GetSwapiService {
   constructor(private http:HttpClient){}
 
   getCategories (){
-    const swapiURL = `https://swapi.dev/api/`
+    const swapiURL = `https://swapi.co/api/`
     return this.http.get(swapiURL).pipe(
       catchError(this.handleError)
     );
   }
 
   getSwapiReport (category, num): Observable<object> {
-    const swapiURL = `https://swapi.dev/api/${category}/${num}/`
+    const swapiURL = `https://swapi.co/api/${category}/${num}/`
     return this.http.get<object>(swapiURL).pipe(
       catchError(this.handleError)
     );
