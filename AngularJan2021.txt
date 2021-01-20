@@ -1,0 +1,47 @@
+Advanced Angular
+
+Toby Dussek
+
+Tues
+> intro
+> writing code together
+> best practices and performance
+> interpolation {{}}
+> generating stuff
+> pipes
+> components, modules etc
+> bindings
+> architectural
+> complete the routing
+- compare... ways to pass data around in an app
+> input/output/event
+> content projection
+> Review Exercise
+> how to migrate from older angular
+
+~ tilde
+^ caret (NOT chevron)
+
+- *ngIf or [disabled]= also consider [hidden]=
+
+q
+- asynchronous operations
+- rxjs
+> crawling angular apps - this relates to aot and Ivy
+- performance e.g. ngFor will affect the DOM - choose when to update the screen
+> CAREFUL with imports - angular/core etc...
+- ngTemplate, ngContainer and ngContent docs
+
+Weds
+- brief review
+- Http
+- Services
+- Forms
+- Review Exercise
+
+Thurs
+- Testing unit e2e
+- publish - production - look at the generated code esp js, also aot and jit
+- Libraries
+? locale
+- Review Exercise
