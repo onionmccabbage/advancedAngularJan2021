@@ -22,22 +22,31 @@ Tues
 ~ tilde
 ^ caret (NOT chevron)
 
-- *ngIf or [disabled]= also consider [hidden]=
+> *ngIf or [disabled]= also consider [hidden]=
 
 q
-- asynchronous operations
+> asynchronous operations
 - rxjs
 > crawling angular apps - this relates to aot and Ivy
-- performance e.g. ngFor will affect the DOM - choose when to update the screen
+> performance e.g. ngFor will affect the DOM - choose when to update the screen
 > CAREFUL with imports - angular/core etc...
-- ngTemplate, ngContainer and ngContent docs
+> ngTemplate, ngContainer and ngContent docs: https://angular.io/guide/structural-directives
 
 Weds
-- brief review
-- Http
-- Services
+> finish Content Projection ex.
+> brief review
+> HttpClient Module (replaces earlier Http Module)
+> Services
+- async pipe <<<<<<<<<
+> subscription: every subscription is destroyed when component is destroyed
+> manually unsubscribe too
+- life-cycle events
+- change detection
 - Forms
 - Review Exercise
+- rxjs, combining data
+- Ivy
+- Shadow DOM
 
 Thurs
 - Testing unit e2e
