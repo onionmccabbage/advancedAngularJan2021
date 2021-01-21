@@ -47,6 +47,7 @@ Weds
 - rxjs, combining data
 - Ivy
 - Shadow DOM
+- question - the 'majic' of observables (Todor)
 
 Thurs
 - Testing unit e2e
