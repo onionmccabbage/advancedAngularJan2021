@@ -13,7 +13,7 @@
           <context context-type="sourcefile">app\app.component.ts</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <note priority="1" from="description">An introduction header for this sample</note>
+        <note priority="1" from="description">Bonjour</note>
         <note priority="1" from="meaning">User welcome</note>
       </trans-unit>
       <trans-unit id="ba0cc104d3d69bf669f97b8d96a4c5d8d9559aa3" datatype="html">
