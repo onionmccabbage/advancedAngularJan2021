@@ -1,6 +1,6 @@
 Advanced Angular
 
-Toby Dussek
+Toby Dussek Jan 19-21 2021
 
 Tues
 > intro
@@ -18,19 +18,16 @@ Tues
 > content projection
 > Review Exercise
 > how to migrate from older angular
-
 ~ tilde
 ^ caret
-
 > *ngIf or [disabled]= also consider [hidden]=
-
-q
-> asynchronous operations
-> rxjs
-> crawling angular apps - this relates to aot and Ivy
-> performance e.g. ngFor will affect the DOM - choose when to update the screen
-> CAREFUL with imports - angular/core etc...
-> ngTemplate, ngContainer and ngContent docs: https://angular.io/guide/structural-directives
+qusetions:
+ > asynchronous operations
+ > rxjs
+ > crawling angular apps - this relates to aot and Ivy
+ > performance e.g. ngFor will affect the DOM - choose when to update the screen
+ > CAREFUL with imports - angular/core etc...
+ > ngTemplate, ngContainer and ngContent docs: https://angular.io/guide/structural-directives
 
 Weds
 > finish Content Projection ex.
@@ -42,7 +39,6 @@ Weds
 > manually unsubscribe too
 > life-cycle events
 > change detection
-- Forms
 > Review Exercise
 > rxjs, combining data
 > question - the 'magic' of observables
@@ -50,14 +46,14 @@ Weds
 Thurs
 > Ivy: much better tree-shaking, new DI, faster/smaller code modules, no need for app.module etc.
 > Libraries
-- Testing unit e2e
+> Testing unit e2e
   see https://github.com/juristr/angular-testing-recipes
   (download it, unzip it, npm install...)
-- snapshots in tests
-- publish - production - look at the generated code esp js, also aot and jit
-? locale (if time)
+> snapshots in tests: use JEST https://izifortune.com/snapshot-testing-angular-applications/
 > cache-busting
 > obfuscated (obfuscation)
 > closure
-- Review Exercise
+> Review Exercise
+- publish - production - look at the generated code esp js, also aot and jit
+- locale (if time)
 - end of course feedback
