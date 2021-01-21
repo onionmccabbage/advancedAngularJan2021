@@ -10,7 +10,7 @@
     <img src='something' />
     <input [placeholder]="hello" />
     <button id='btn'>Go</button>
-    <script>
+    <script type='module'>
         const doStuff = ()=>{}
         btn.addEventListener('click', doStuff)
         fetch('url').then().then()
@@ -18,6 +18,21 @@
         a = 'hello'
         b = 'this is fun'
         c = `${a} ${b}` // this is string interpolation in ES6
+
+        export default MyClass(){
+            
+        }
+
+        const myFn = ()=>{
+             function inner(){
+                //do stuff
+            }
+            return inner
+        }
+
+        myFn()()
+
+
     </script>
 </body>
 </html>

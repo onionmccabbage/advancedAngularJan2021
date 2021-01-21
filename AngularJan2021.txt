@@ -13,20 +13,20 @@ Tues
 > bindings
 > architectural
 > complete the routing
-- compare... ways to pass data around in an app
+> compare... ways to pass data around in an app
 > input/output/event
 > content projection
 > Review Exercise
 > how to migrate from older angular
 
 ~ tilde
-^ caret (NOT chevron)
+^ caret
 
 > *ngIf or [disabled]= also consider [hidden]=
 
 q
 > asynchronous operations
-- rxjs
+> rxjs
 > crawling angular apps - this relates to aot and Ivy
 > performance e.g. ngFor will affect the DOM - choose when to update the screen
 > CAREFUL with imports - angular/core etc...
@@ -37,21 +37,27 @@ Weds
 > brief review
 > HttpClient Module (replaces earlier Http Module)
 > Services
-- async pipe <<<<<<<<<
+> async pipe
 > subscription: every subscription is destroyed when component is destroyed
 > manually unsubscribe too
-- life-cycle events
-- change detection
+> life-cycle events
+> change detection
 - Forms
-- Review Exercise
-- rxjs, combining data
-- Ivy
-- Shadow DOM
-- question - the 'majic' of observables (Todor)
+> Review Exercise
+> rxjs, combining data
+> question - the 'magic' of observables
 
 Thurs
+> Ivy: much better tree-shaking, new DI, faster/smaller code modules, no need for app.module etc.
+> Libraries
 - Testing unit e2e
+  see https://github.com/juristr/angular-testing-recipes
+  (download it, unzip it, npm install...)
+- snapshots in tests
 - publish - production - look at the generated code esp js, also aot and jit
-- Libraries
-? locale
+? locale (if time)
+> cache-busting
+> obfuscated (obfuscation)
+> closure
 - Review Exercise
+- end of course feedback
